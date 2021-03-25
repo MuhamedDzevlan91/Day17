@@ -1,0 +1,140 @@
+body{
+    background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: auto;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px; 
+    grid-template-rows: 800px;
+    grid-column-gap: 5px;
+  }
+
+  hr{
+      border: 1px solid grey;
+      width: 327px;
+  }
+
+#right{
+    width: 500px;
+    right: 200px;
+    margin: auto;
+    top: 310px;
+    position: absolute;
+    background: url();
+}
+
+#left{
+    width: 350px;
+    padding: 40px;
+    background-color: black;
+    margin-left: 0;
+}
+
+p{
+    color: white;
+}
+
+
+#main-footer{
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  height: 2.5rem; 
+  text-align: center;
+  margin-left: 40px;
+}
+
+.primary-btn {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 330px;
+    
+  }
+
+  .text-input{
+    width: 327px;
+    border: 1px solid lightgray;
+    background-color: rgba(14, 13, 13, 0.781);
+    height: 30px;
+  }
+
+  #links{
+      text-align: center;
+      text-decoration: none;
+    }
+
+  label{
+    color: white;
+    
+  }
+
+  .secondary-btn{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    width: 295px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 6px;
+    display: inline-block;
+    font-family: "Helvetica", Monaco, monospace;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  .secondary-btn:hover{
+    opacity: 1;
+    box-shadow: inset 400px 0 0 0 #830753;
+}
+
+  a{
+    text-decoration: none;
+  }
+
+  #showcase a:link, a:visited {
+    background-color: gray;
+    color: white;
+    width: 300px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .showcase-text{
+      color: white;
+  }
+
+  #showcase{
+      margin-left: 30px;
+  }
+
+  form{
+      margin-left: 10px;
+  }
+
+  input[type=text]:focus {
+    background-color: rgb(174, 220, 243);
+  }
+
+  input[type=password]:focus {
+    background-color: rgb(174, 220, 243);
+  }
